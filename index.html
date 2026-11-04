@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Справка — Мониторинг дорожной инфраструктуры</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">Загрузка справки…</div>
+  <script>
+    window.$docsify = {
+      name: 'Справка · Мониторинг дорожной инфраструктуры',
+      // навигация из файла _sidebar.md
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        placeholder: 'Поиск по справке',
+        noData: 'Ничего не найдено',
+        depth: 2
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+</body>
+</html>
